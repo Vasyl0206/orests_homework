@@ -1,11 +1,10 @@
 class Ball(object):
-    def __init__(self,ball_type = "regular"):
+    def __init__(self,ball_type = None):
         self.ball_type = ball_type
-    def ball_type(self):
-        if self.ball_type == '':
-           print ("regular")
-        elif self.ball_type == 'super':
-           print ("super")
+        if self.ball_type is None:
+           self.ball_type = 'regular'
+        elif: 
+           self.ball_type = ball_type
 
 ball1 = Ball()
 ball2 = Ball("super")
