@@ -1,7 +1,3 @@
-def is_uppercase(inp):
-    for i in inp:
-       if i.isupper():
-            return True
-       else:
-            return False
-    return inp
+def sorter(textbooks):
+    #Cramming before a test can't be that bad?
+    return sorted(textbooks, key=str.lower)
